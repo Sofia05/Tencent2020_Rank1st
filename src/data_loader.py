@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from torch.utils.data import Dataset
 import gensim
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)  # just test edit function
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
                     level=logging.INFO)
